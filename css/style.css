@@ -1,0 +1,78 @@
+body {
+  background-color: grey;
+}
+img {
+
+}
+
+.header {
+  height: 200px;
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  color: white;
+  background-color: black;
+  font-family: fantasy;
+  font-size: 4em;
+  border-style:solid;
+  border-width: 5px;
+  border-color: black;
+  border-radius: 15px;
+}
+
+h3 {
+  background-color: green;
+  height: 50px;
+  border-style:solid;
+  border-width: 5px;
+  border-color: black;
+  border-radius: 15px;
+  margin-top: 0px;
+  vertical-align: baseline;
+}
+
+.semaine {
+  height: 300px;
+  text-align: center;
+  background-color: lightgrey;
+  margin: 10px 0px;
+  border-style:solid;
+  border-width: 5px;
+  border-color: black;
+  border-radius: 15px;
+}
+
+.projet {
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  margin: 0% 3%;
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 30px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+ .projet header {
+   padding: 0px;
+ }
+
+.projet section {
+  text-align: left;
+}
+
+.fini {
+  text-decoration: line-through;
+}
+
+.nonFini {
+  background-color: red;
+}
+
+footer {
+  text-align: center;
+  font-size: 2em;
+}
